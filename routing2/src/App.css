@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.navbar li{
+  display: inline-block;
+  padding: 10px 5px;
+}
+.navbar{
+  text-align: right;
+ margin-right: 10px;
+}
+.nav-link{
+  color: black;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: aqua;
+  transition: 0.3s ease-in-out;
+}
+.active{
+  color: rgb(241, 20, 12);
+  /* background-color: aqua; */
+}
